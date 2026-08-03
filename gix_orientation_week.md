@@ -47,7 +47,7 @@ class: left, middle, inverse
 1. **Understanding GIX** — the identity and purpose of the programme
 2. **Your four-year journey** — how your learning develops
 3. **Learning in GIX** — TOAD, integration and human judgement
-4. **Working with AI** — support without surrendering learning
+4. **Studying with AI** — support without surrendering learning
 5. **Making the most of university** — attention, persistence and community
 6. **Information and next steps** — where to find help
 
@@ -288,7 +288,7 @@ Before each course-registration period:
 4. Discuss uncertainties with the programme's academic advisers.
 5. Confirm requirements using the official curriculum source.
 
-**Graduation requirement:** [see Graudation tab](https://chs.nus.edu.sg/programmes/gi/)
+**Graduation requirement:** [see Graduation tab](https://chs.nus.edu.sg/programmes/gi/)
 
 ---
 
@@ -301,7 +301,7 @@ class: center, middle, inverse
 ---
 class: center, top
 
-## The core components
+## Bringing Geography and Computing together
 
 .card-container[
 .card[
@@ -310,7 +310,7 @@ class: center, top
   ]
   .card-label[
     **Geography**  
-Recognise how exposure and accessibility vary across people, places, routes and times.
+Understand how people, places, environments and processes vary and interact across space.
   ]
 ]
 .card[
@@ -319,7 +319,7 @@ Recognise how exposure and accessibility vary across people, places, routes and 
   ]
   .card-label[
     **Computing**  
-Translate the problem into measurable criteria and a structured analytical task.
+Represent information and use computational methods to organise, analyse and model data.
   ]
 ]
 .card[
@@ -328,7 +328,7 @@ Translate the problem into measurable criteria and a structured analytical task.
   ]
   .card-label[
     **Integrated problem-solving**  
-Connect geographical context and computational capabilities to develop meaningful and workable approaches.
+Connect geographical context and computational capabilities to investigate meaningful real-world problems.
   ]
 ]
 ]
@@ -337,7 +337,7 @@ Connect geographical context and computational capabilities to develop meaningfu
 
 ---
 class: left, middle
-## How inquiry works in GIX - TOAD
+## How inquiry works in GIX: TOAD
 
 <img src="resources/toad.png" style="width: 90%; display: block; margin: 0 auto;"> 
 
@@ -479,7 +479,7 @@ A recommendation should explain:
 ---
 class: left, middle
 
-## TOAD is .red[inter-connected]
+## TOAD is .red[interconnected]
 
 Thinking, Observing, Analysing and Deciding influence one another throughout an inquiry.
 
@@ -767,7 +767,7 @@ Requirements, course availability and university policies may change. Confirm im
 
 - **GIX welcome page:** [https://gix-academy.github.io/welcome/](https://gix-academy.github.io/welcome/)
 
-- **Official Github Organization:** [https://github.com/GIX-Academy/](https://github.com/GIX-Academy/)
+- **Official Github organisation:** [https://github.com/GIX-Academy/](https://github.com/GIX-Academy/)
 
 - **Academic integrity and AI guidance:** [NUS AI Guidelines for students](https://libguides.nus.edu.sg/new2nus/ai_guidelines_infographics)
 
@@ -788,10 +788,10 @@ class: left, middle
 - **GIS TA:** 
   Kowin Chen, Email: [kowin.chen@nus.edu.sg](mailto:kowin.chen@nus.edu.sg)
 
-- **Faculty members:** 
+- **Faculty Members:** 
   [GIS Hub](https://nusgis.org/people/)
 
-- **Admin Support:** 
+- **Administrative Support:** 
   [Geography Administrative staff](https://fass.nus.edu.sg/geog/administrative-staff/)
 
 ---
@@ -807,7 +807,7 @@ Use this checklist:
 - [ ] Read the NUS academic-integrity and AI-use guidance.
 - [ ] Save the programme's contact information.
 - [ ] Introduce yourself to others in the cohort.
-- [ ] Note one real-world issue you would like to understand through/begin your GIX journey.
+- [ ] Note one real-world issue you would like to explore during your GIX journey.
 
 ---
 class: left, middle
