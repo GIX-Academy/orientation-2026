@@ -1,0 +1,157 @@
+@import url('base.css');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&family=Red+Hat+Mono:ital,wght@0,400;0,700;1,400&display=swap');*/
+
+@font-face{
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand-VariableFont_wght.ttf');
+}
+
+@font-face{
+  font-family: 'xkcd';
+  src: url('./fonts/xkcd-script.woff');
+}
+
+@font-face{
+  font-family: 'Red Hat Mono';
+  src: url('./fonts/RedHatMono-VariableFont_wght.ttf');
+}
+
+@font-face{
+  font-family: 'Red Hat Mono';
+  src: url('./fonts/RedHatMono-Italic-VariableFont_wght.ttf');
+}
+
+/*=========================================
+2.1. San Francisco Font (Apple's new font)
+=========================================== */
+/* Ultra Light */
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 100;
+  src: url("./fonts/sanfranciscodisplay-ultralight-webfont.woff2"); 
+}
+
+/* Thin */
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 200;
+  src: url("./fonts/sanfranciscodisplay-thin-webfont.woff2"); 
+}
+
+/* Regular */
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: 400;
+  src: url("./fonts/sanfranciscodisplay-regular-webfont.woff2"); 
+}
+
+/* Bold */
+@font-face {
+  font-family: 'San Francisco';
+  font-weight: bold;
+  src: url("./fonts/sanfranciscodisplay-bold-webfont.woff2"); 
+}
+/*url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff2");*/ 
+/*url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff2");*/ 
+/*url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff2");*/ 
+/*url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2");*/ 
+
+body {
+  font-family: 'San Francisco';
+  font-weight: 400;
+}
+h1, h2, h3 {
+  font-family: 'San Francisco';
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.remark-slide-content h1 { font-size: 3em; }
+.remark-slide-content h2 { font-size: 2em; }
+.remark-slide-content h3 { font-size: 1.6em; }
+
+li p { line-height: 1.25em; }
+
+a, a > code {
+  color: rgb(249, 38, 114);
+  text-decoration: none;
+}
+code {
+  background: #e7e8e2;
+  border-radius: 5px;
+}
+.remark-code, .remark-inline-code { font-family: 'Red Hat Mono'; }
+.remark-code-line-highlighted     { background-color: #373832; }
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+#slideshow .slide .content code {
+  font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+  font-size: 0.9em;
+  padding: 15px;
+}
+.remark-slide-content {
+  background: #f2f3f5;/*linear-gradient(to bottom, #b6b7af 0%, #ffffff 50%, #babbb3 100%);*/ 
+}
+
+/* for full page image */
+.remark-slide-content {
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+.inverse {
+  background: linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%); /*#272822;*/
+  color: #dbdcde; /*#777872;*/
+  text-shadow: 0 0 20px #333;
+}
+.inverse h1, .inverse h2 {
+  color: #f3f3f3;
+  line-height: 0.8em;
+}
+
+.remark-slides-area {
+  background: linear-gradient(to bottom, #000 0%, #1a2028 50%, #293845 100%);
+}
+
+/* custom font */
+.round { font-family: 'Quicksand';}
+.xkcd { font-family: 'xkcd';}
+
+
+/* table related */
+.tg  {
+  margin-left: auto;margin-right: auto;
+  border-collapse:collapse;border-spacing:0;
+}
+
+.tg td{
+  border-color:#293845;border-style:solid;border-width:1px;font-size:18px;
+  background-color:#f2f3f5;color: #293845;
+  overflow:hidden;padding:10px 5px;word-break:normal;
+}
+
+.tg th{
+  border-color:#293845;border-style:solid;border-width:1px;font-size:18px;
+  background-color:#293845;color: #f2f3f5;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+
+.tg .tg-basic-small{text-align:left;vertical-align:middle;font-size:14px;}
+.tg .tg-basic{text-align:left;vertical-align:middle}
+.tg .tg-center{text-align:center;vertical-align:middle}
+.tg .tg-right{text-align:right;vertical-align:middle}
+.tg .tg-bold{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-bold-center{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-bold-right{font-weight:bold;text-align:right;vertical-align:middle}

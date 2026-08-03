@@ -1,0 +1,339 @@
+@import url('base.css');
+@import url('nord_colors.css');
+@import url('typicons.css');
+/*@import url('colors_config.css');*/
+
+/*=========================================
+import fonts
+=========================================== */
+/* Mulish italic */
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 100 900;
+  font-style: italic, oblique;
+  src: url("./fonts/Mulish-Italic-VariableFont_wght.ttf"); 
+}
+/* Mulish regular*/
+@font-face {
+  font-family: 'Mulish';
+  font-weight: 100 900;
+  font-style: normal;
+  src: url("./fonts/Mulish-VariableFont_wght.ttf"); 
+}
+/* RadioCanada italic */
+@font-face {
+  font-family: 'RadioCanada';
+  font-weight: 100 900;
+  font-style: italic, oblique;
+  src: url("./fonts/RadioCanada-Italic-VariableFont_wdth,wght.ttf"); 
+}
+/* RadioCanada regular*/
+@font-face {
+  font-family: 'RadioCanada';
+  font-weight: 100 900;
+  font-style: normal;
+  src: url("./fonts/RadioCanada-VariableFont_wdth,wght.ttf"); 
+}
+/* Rounded */
+@font-face{
+  font-family: 'Quicksand';
+  src: url('./fonts/Quicksand-VariableFont_wght.ttf');
+}
+/* Mono italic */
+@font-face{
+  font-family: 'Sometype Mono';
+  font-style: italic, oblique;
+  src: url('./fonts/SometypeMono-Italic-VariableFont_wght.ttf');
+}
+/* Mono regular */
+@font-face{
+  font-family: 'Sometype Mono';
+  font-style: normal;
+  src: url('./fonts/SometypeMono-VariableFont_wght.ttf');
+}
+/* hand writing */
+@font-face{
+  font-family: 'xkcd';
+  src: url('./fonts/xkcd-script.woff');
+}
+/* wide font */
+@font-face{
+  font-family: 'Lexend';
+  src: url('./fonts/LexendGiga-VariableFont_wght.ttf');
+}
+/* square font */
+@font-face{
+  font-family: 'MicroSquare';
+  src: url('./fonts/MicroSquare Regular.ttf');
+}
+
+/*=========================================
+start here
+=========================================== */
+:root {
+    --head-font: 'RadioCanada';
+    --main-font: 'Mulish';  /* can change to Lora in future */
+    --wide-font: 'Lexend';
+    --mono-font: 'Sometype Mono';
+    --hand-font: 'xkcd';
+    --round-font: 'Quicksand';
+    --square-font: 'Microsquare';
+    --bg-content: var(--nord0-night);
+    --bg-inversed: linear-gradient(to bottom, var(--nord1-night) 0%, var(--nord3-night) 50%, var(--nord0-night) 100%);
+    --bg-external: var(--nord2-night);
+    --text-content: var(--nord6-snow);
+    --text-inversed: var(--nord6-snow);
+    --white-color: var(--nord5-snow);
+    --black-color: var(--nord1-night);
+    --red-color: var(--nord11-aurora-red);
+    --orange-color: var(--nord12-aurora-orange);
+    --blue-color: var(--nord10-frost-ocean);
+    --grey-color: var(--nord3-night);
+    --light-grey-color: var(--nord5-snow);
+    --text-highlight-bg: var(--nord13-aurora-yellow);
+    --text-highlight: var(--nord15-aurora-violet);
+    --code-bg: var(--nord2-night);
+    --code-text: var(--nord5-snow);
+    --code-highlight: var(--nord3-night);
+    --table-head-bg: var(--nord1-night);
+    --table-data-bg: var(--nord5-snow);
+    --table-line: var(--nord2-night);
+}
+
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-style: normal;
+  color: var(--text-content);
+  scroll-behavior: smooth;
+}
+
+.remark-slide-content {
+  font-size: 20pt;
+}
+h1, h2, h3 {
+  font-family: var(--head-font);
+  font-weight: 700;
+ /*line-height: 1.2rem;*/
+}
+
+.remark-slide-content h1 {
+  font-size: 2em;
+}
+.remark-slide-content h2 {
+  font-size: 1.8em;
+}
+.remark-slide-content h3 {
+  font-size: 1.6em;
+}
+ul li p {
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+
+a, a > code {
+  color: var(--red-color);
+  text-decoration: underline dotted;
+}
+
+code {
+  background: var(--code-bg);
+  color: var(--code-text);
+  border-radius: 5px;
+}
+
+.remark-code {
+  background: var(--code-bg);
+  color: var(--code-text);
+}
+
+.remark-code, .remark-inline-code { font-family: var(--mono-font); }
+.remark-code-line-highlighted     { background-color: var(--code-highlight); }
+.remark-slide-content {
+  background: var(--bg-content);  /*linear-gradient(to bottom, #b6b7af 0%, #ffffff 50%, #babbb3 100%);*/ 
+}
+
+/* for full page image */
+.remark-slide-content {
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+.inverse {
+  background: var(--bg-inversed); /*#272822;*/
+  color: var(--text-inversed); 
+}
+.inverse h1, .inverse h2 {
+  color: var(--text-inversed);
+  /*line-height: 1.2em;*/
+  font-weight: bold;
+}
+
+.remark-slides-area {
+  background: var(--bg-external);
+}
+
+
+/* custom font */
+.round { font-family: var(--round-font);}
+.xkcd { font-family: var(--hand-font);}
+.wide { font-family: var(--wide-font); }
+.square { font-family: var(--square-font); }
+.red { color: var(--red-color); }
+.grey { color: var(--grey-color); }
+.lightgrey {color: var(--light-grey-color);}
+.blue {color: var(--blue-color); }
+
+
+
+/* table related */
+table, tr {  border: 1px solid var(--table-line); border-left: none; border-right: none; border-collapse: collapse; }
+tr:last-child {
+  border-bottom: 1.5px solid var(--table-head-bg); }
+
+th{
+  border-color: var(--table-data-bg);border-style:solid;border-width:1px;
+  background-color: var(--table-head-bg);color: var(--table-data-bg);
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+td{
+  background-color:var(--table-data-bg);color: var(--table-head-bg);
+  overflow:hidden;word-break:normal;
+}
+
+/* Two-column layout: left as menu */
+.left-column {
+  color: var(--text-content);
+  width: 20%;
+  height: 92%;
+  float: left;
+}
+.left-column h2:last-of-type, .left-column h3:last-child {
+  color: var(--blue-color);
+}
+.right-column {
+  width: 75%;
+  float: right;
+  padding-top: 1em;
+}
+
+/* font styling */
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.underline { text-decoration: underline solid var(--red-color); }
+.mark { 
+  /*background-color: rgba(var(--text-highlight-bg), 0.7); */
+  background: color-mix(in srgb, var(--text-highlight-bg) 30%, transparent);
+  color: var(--text-highlight); }
+
+/* boxes are for the text boxes on full page background images */
+.box {
+  display: inline-block;
+  padding: 1.6rem;
+  border: 1px solid var(--grey-color);
+  text-align: center;
+  background-color: var(--light-grey-color); /*var(--ctp-mocha-overlay2);*/
+}
+.box2 {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.5rem;
+  border: 1px solid var(--grey-color);
+  text-align: center;
+  background-color: var(--light-grey-color); /*var(--ctp-mocha-overlay2);*/
+}
+
+.box-text {
+  color: var(--text-content);
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 1;
+}
+
+
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin: 30px 0;
+}
+
+.card {
+    width: 220px;
+    height: 170px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.08);
+    border: 2px solid rgba(255,255,255,0.2);
+    transition: transform .2s;
+}
+
+/*.card-icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.card-label {
+    font-size: 22px;
+    font-weight: 700;
+}*/
+
+.card-icon {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    background: var(--bg-content);
+
+    color: var(--text-content);
+    font-size: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto 15px auto;
+}
+
+.card-label {
+    font-weight: 600;
+    text-align: center;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 20px;
+    row-gap: 8px;
+
+    width: 900px;
+    margin: auto;
+}
+
+.grid-cell {
+    min-height: 100px;
+    border: 0px;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 24px;
+}
+
+.grid-4 p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.clear {
+  clear: both;
+}

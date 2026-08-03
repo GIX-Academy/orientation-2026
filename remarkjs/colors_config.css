@@ -1,0 +1,17 @@
+@import url('catppuccin.css');
+.nus-orange {color: var(--nus-orange);}
+.nus-blue {color: var(--nus-blue);}
+.black {color: var(--ctp-mocha-crust);}
+.white {color: var(--ctp-latte-crust);}
+.red {color: var(--ctp-latte-red);}
+.blue {color: var(--ctp-latte-blue);}
+.lavender {color: var(--ctp-latte-lavender);}
+.sky {color: var(--ctp-latte-sky);}
+.maroon {color: var(--ctp-latte-maroon);}
+.rosewater {color: var(--ctp-latte-rosewater);}
+.yellow {color: var(--ctp-latte-yellow);}
+.green {color: var(--ctp-latte-green);}
+.sapphire {color: var(--ctp-latte-sapphire);}
+.peach {color: var(--ctp-latte-peach);}
+.pink {color: var(--ctp-latte-pink);}
+.purple, .mauve {color: var(--ctp-latte-mauve);}

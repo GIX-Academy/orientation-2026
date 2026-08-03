@@ -1,0 +1,182 @@
+
+
+/* for full page image */
+.remark-slide-content {
+  background-size: contain; 
+  background-position: center;
+  background-repeat: no-repeat;
+} 
+
+
+/* Two-column layout: generic */
+.column:first-of-type {float:left}
+.column:last-of-type {float:right}
+
+.split-10, .split-20, .split-30, .split-40, .split-50, .split-60, .split-70, .split-80, .split-90 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.split-10 .column:first-of-type {width:  7.5%;}
+.split-10 .column:last-of-type { width: 87.5%;}
+
+.split-20 .column:first-of-type {width: 17.5%;}
+.split-20 .column:last-of-type { width: 77.5%;}
+
+.split-30 .column:first-of-type {width: 27.5%;}
+.split-30 .column:last-of-type { width: 67.5%;}
+
+.split-40 .column:first-of-type {width: 37.5%;}
+.split-40 .column:last-of-type { width: 57.5%;}
+
+.split-50 .column:first-of-type {width: 47.5%;}
+.split-50 .column:last-of-type { width: 47.5%;}
+
+.split-60 .column:first-of-type {width: 57.5%;}
+.split-60 .column:last-of-type { width: 37.5%;}
+
+.split-70 .column:first-of-type {width: 67.5%;}
+.split-70 .column:last-of-type { width: 27.5%;}
+
+.split-80 .column:first-of-type {width: 77.5%;}
+.split-80 .column:last-of-type { width: 17.5%;}
+
+.split-90 .column:first-of-type {width: 87.5%;}
+.split-90 .column:last-of-type { width:  7.5%;}
+
+
+.split-50 > * {
+  flex: 1;
+  min-width: 0;
+}
+
+
+/* custom font class */
+/*.footnote { position: absolute; bottom: 3em; left: 5em; }*/
+.headnote { 
+  position: absolute; 
+  top: 2em; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.footnote { 
+  position: absolute; 
+  bottom: 1em; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.red { color: #fa0000; }
+.dot:before { content: '\2022'; }
+.align-justify { display: block; text-align: justify; text-justify: inter-word; }
+.align-center { display: block; text-align: center; }
+.align-left { display: block; text-align: left; }
+.align-right { display: block; text-align: right; }
+
+/* text manipulation */
+.smaller { font-size: smaller; }
+.larger { font-size: larger; }
+/*.small { font-size: 67% }
+.large { font-size: 2em; }*/
+
+.small { font-size: small; }
+.x-small { font-size: x-small; }
+.xx-small { font-size: xx-small; }
+
+.large { font-size: large; }
+.x-large { font-size: x-large; }
+.xx-large { font-size: xx-large; }
+.xxx-large { font-size: xxx-large; }
+
+.center { text-align: center; }
+.justify { text-align: justify; }
+.align-left { text-align: left; }
+.align-right { text-align: right; }
+
+.footnote-left { 
+  position: absolute; 
+  bottom: 1em; 
+  left: 3em; 
+}
+
+.footnote-right { 
+  position: absolute; 
+  bottom: 3em; 
+  right: 6em; 
+}
+
+h1, h2 {
+  margin-bottom: 0;
+}
+.remark-slide-content h1 { font-size: 3em; }
+.remark-slide-content h2 { font-size: 2em; }
+.remark-slide-content h3 { font-size: 1.6em; }
+
+li p { line-height: 1.25em; }
+
+.centered-list-parent {
+  text-align: center;
+}
+.centered-list-parent > ul {
+  display: inline-block;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+.pull-right ~ p {
+  clear: both;
+}
+#slideshow .slide .content code {
+  font-size: 0.8em;
+}
+#slideshow .slide .content pre code {
+  font-size: 0.9em;
+  padding: 15px;
+}
+
+/* table related */
+.tg  {
+  margin-left: auto;margin-right: auto;
+  border-collapse:collapse;border-spacing:0;
+}
+
+.tg td{
+  border-color:#293845;border-style:solid;border-width:1px;font-size:18px;
+  background-color:#f2f3f5;color: #293845;
+  overflow:hidden;padding:10px 5px;word-break:normal;
+}
+
+.tg th{
+  border-color:#293845;border-style:solid;border-width:1px;font-size:18px;
+  background-color:#293845;color: #f2f3f5;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;
+}
+
+.tg .tg-basic-small{text-align:left;vertical-align:middle;font-size:14px;}
+.tg .tg-basic{text-align:left;vertical-align:middle}
+.tg .tg-center{text-align:center;vertical-align:middle}
+.tg .tg-right{text-align:right;vertical-align:middle}
+.tg .tg-bold{font-weight:bold;text-align:left;vertical-align:middle}
+.tg .tg-bold-center{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-bold-right{font-weight:bold;text-align:right;vertical-align:middle}
+
+
+@page {
+  size: 1210px 681px; /*16in 9in;*/
+  margin: 0;
+}
+
+@media print {
+  .remark-slide-scaler {
+    width: 100% !important;
+    height: 100% !important;
+    transform: scale(1) !important;
+    top: 0 !important;
+    left: 0 !important;
+  }
+}

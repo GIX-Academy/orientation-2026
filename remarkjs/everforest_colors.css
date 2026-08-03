@@ -1,0 +1,42 @@
+
+:root {
+    --ef-dark-bg0: #1e2326;
+    --ef-dark-bg1: #272e33;
+    --ef-dark-bg2: #2e383c;
+    --ef-dark-bg3: #374145;
+    --ef-dark-bg4: #414b50;
+    --ef-dark-bg5: #495156;
+    --ef-dark-bg6: #4f5b58;
+    --ef-dark-fg: #d3c6aa;
+    --ef-dark-red: #e67e80;
+    --ef-dark-orange: #e69875;
+    --ef-dark-yellow: #dbbc7f;
+    --ef-dark-green: #a7c080;
+    --ef-dark-blue-green: #83c092;
+    --ef-dark-blue: #7fbbb3;
+    --ef-dark-pink: #d699b6;
+    --ef-dark-grey0: #7a8478;
+    --ef-dark-grey1: #859289;
+    --ef-dark-grey2: #9da9a0;
+    --ef-dark-status: #d3c6aa;
+    
+    --ef-light-bg0: #f2efdf;
+    --ef-light-bg1: #fffbef;
+    --ef-light-bg2: #f8f5e4;
+    --ef-light-bg3: #f2efdf;
+    --ef-light-bg4: #edeada;
+    --ef-light-bg5: #e8e5d5;
+    --ef-light-bg6: #bec5b2;
+    --ef-light-fg: #5c6a72;
+    --ef-light-red: #f85552;
+    --ef-light-orange: #f57d26;
+    --ef-light-yellow: #dfa000;
+    --ef-light-green: #8da101;
+    --ef-light-blue-green: #35a77c;
+    --ef-light-blue: #3a94c5;
+    --ef-light-pink: #df69ba;
+    --ef-light-grey0: #a6b0a0;
+    --ef-light-grey1: #939f91;
+    --ef-light-grey2: #829181;
+    --ef-light-status: #708089;
+}
