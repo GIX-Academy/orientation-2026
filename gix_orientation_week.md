@@ -166,14 +166,13 @@ class: center, middle, inverse
 ---
 class: left, middle
 
-## Year 1 · Build foundations
+## Year 1 · Build .red[foundations]
 
 .split-20[.column[
 - .red[Year 1]
 - Year 2
 - Year 3
 - Year 4
-- Notes
 
 ].column[
 
@@ -190,7 +189,7 @@ You do not need to arrive as an experienced programmer or geographer. What matte
 ---
 class: left, middle
 
-## Year 2 · Develop capabilities
+## Year 2 · Develop .red[capabilities]
 
 .split-20[.column[
 - Year 1
@@ -202,7 +201,7 @@ class: left, middle
 
 You will begin connecting foundational ideas through areas such as:
 
-- geographic information systems;
+- geographic information systems (GIS);
 - data structures and algorithms;
 - statistics and spatial analysis;
 - databases, data management and computational methods; and
@@ -214,7 +213,7 @@ This is often where subjects that initially seemed separate begin to support one
 ---
 class: left, middle
 
-## Year 3 · Connect and apply
+## Year 3 · .red[Connect and apply]
 
 .split-20[.column[
 - Year 1
@@ -238,7 +237,7 @@ The emphasis gradually shifts from following a defined procedure to designing an
 ---
 class: left, middle
 
-## Year 4 · Integrate and contribute
+## Year 4 · .red[Integrate and contribute]
 
 .split-20[.column[
 - Year 1
