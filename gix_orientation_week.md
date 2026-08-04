@@ -65,7 +65,7 @@ class: left, middle
 
 You are joining a new four-year direct honours programme jointly offered by the **Faculty of Arts and Social Sciences** and the **School of Computing**.
 
-As the first cohort, you will do more than follow an established path. Your experiences and feedback will help shape the programme's culture and development for future students.
+As the first cohort, you have the opportunity to provide feedback that shapes the programme’s culture and contributes to its development for future students.
 
 You will enter with different academic backgrounds and strengths. That diversity is expected—and it can become one of the cohort's greatest resources.
 
@@ -83,7 +83,7 @@ You will learn to connect:
 - technical possibilities with social and environmental consequences; and
 - analytical results with responsible decisions.
 
-The goal is **integration**: knowing what each discipline contributes, where each has limitations and how they can work together.
+The goal is **integrated problem-solving**: knowing what each discipline contributes, where each has limitations and how they can work together.
 
 ---
 class: left, middle
@@ -154,7 +154,7 @@ The same foundations can support very different applications:
 - supporting planning, logistics and emergency response; and
 - developing geospatial software, data systems and GeoAI.
 
-You are not expected to choose one pathway immediately. Use your early years to explore what interests you.
+You are not expected to choose one pathway immediately. But, use your early years to explore what interests you.
 
 ---
 class: center, middle, inverse
@@ -797,7 +797,7 @@ class: left, middle
 ---
 class: left, middle
 
-## Before the semester begins
+## During the first few weeks
 
 Use this checklist:
 
